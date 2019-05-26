@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-#version="8235"
-version="8240"
+version="8235"
 
 wget http://home.thep.lu.se/~torbjorn/pythia8/pythia$version.tgz
 

@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
-version="1.70.0"
-version1="1_70_0"
+#version="1.70.0"
+#version1="1_70_0"
+version="1.68.0"
+version1="1_68_0"
 
 wget https://dl.bintray.com/boostorg/release/$version/source/boost_$version1.tar.bz2
 

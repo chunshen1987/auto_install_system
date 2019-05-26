@@ -13,3 +13,5 @@ tar -xf boost_$version1.tar.bz2
     ./b2 install --prefix=/Users/chunshen/Softwares/boost --with-filesystem --with-program_options --with-system
 )
 
+rm -fr boost_$version1.tar.bz2
+rm -fr boost_$version1

@@ -34,6 +34,7 @@ sudo apt-get install -y --no-install-recommends \
     python3-pip \
     tmux \
     vim \
+    vlc \
     wget \
     zlib1g-dev
 

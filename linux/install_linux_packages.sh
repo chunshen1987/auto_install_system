@@ -33,6 +33,7 @@ sudo apt-get install -y --no-install-recommends \
     python3 \
     python3-pip \
     tmux \
+    Valgrind \
     vim \
     vlc \
     wget \

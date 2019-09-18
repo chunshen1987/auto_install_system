@@ -4,6 +4,7 @@ sudo apt-get update
 sudo apt-get install -y --no-install-recommends \
     build-essential \
     cmake \
+    dvipng \
     ffmpeg \
     freeglut3 \
     freeglut3-dev \
@@ -32,6 +33,8 @@ sudo apt-get install -y --no-install-recommends \
     openssh-server \
     python3 \
     python3-pip \
+    texlive-latex-extra \
+    texlive-fonts-recommended \
     tmux \
     Valgrind \
     vim \

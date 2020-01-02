@@ -4,6 +4,7 @@ packages=(
     "wget"
     "cmake"
     "ctags"
+    "doxygen"
     "eigen"
     "ffmpeg"
     "gcc"

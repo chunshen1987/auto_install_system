@@ -12,7 +12,7 @@ tar -xf boost_$version1.tar.bz2
 (
     cd boost_$version1
     ./bootstrap.sh
-    ./b2 install --prefix=/Users/chunshen/Softwares/boost --with-filesystem --with-program_options --with-system
+    ./b2 install --prefix=/Users/chunshen/Softwares/boost
 )
 
 rm -fr boost_$version1.tar.bz2

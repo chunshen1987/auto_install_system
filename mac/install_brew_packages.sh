@@ -7,6 +7,7 @@ packages=(
     "doxygen"
     "eigen"
     "ffmpeg"
+    "fftw"
     "gcc"
     "graphviz"
     "gsl"

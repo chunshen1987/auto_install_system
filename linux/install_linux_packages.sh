@@ -21,8 +21,6 @@ sudo apt-get install -y --no-install-recommends \
     libxi-dev \
     libxmu-dev \
     make \
-    openmpi-bin \
-    openmpi-common \
     openssh-client \
     openssh-server \
     libopenmpi-dev \

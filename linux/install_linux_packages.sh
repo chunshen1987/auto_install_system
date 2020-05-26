@@ -6,6 +6,7 @@ sudo apt-get install -y --no-install-recommends \
     cmake \
     dvipng \
     ffmpeg \
+    fonts-powerline \
     freeglut3 \
     freeglut3-dev \
     g++ \
@@ -38,10 +39,14 @@ sudo apt-get install -y --no-install-recommends \
     vim \
     vlc \
     wget \
-    zlib1g-dev
+    zlib1g-dev \
+    zsh
 
 sudo apt-get clean
 rm -fr /var/lib/apt/lists/*
+
+# get oh-my-zsh
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
 # only needed for ubuntu 18.04 and below
 ## wifi driver

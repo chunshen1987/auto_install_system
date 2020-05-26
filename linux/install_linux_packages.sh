@@ -24,7 +24,7 @@ sudo apt-get install -y --no-install-recommends \
     openssh-client \
     openssh-server \
     libopenmpi-dev \
-    libopenmpi2 \
+    libopenmpi3 \
     openmpi-bin \
     openmpi-common \
     openmpi-doc \
@@ -34,7 +34,7 @@ sudo apt-get install -y --no-install-recommends \
     texlive-latex-extra \
     texlive-fonts-recommended \
     tmux \
-    Valgrind \
+    valgrind \
     vim \
     vlc \
     wget \
@@ -43,14 +43,14 @@ sudo apt-get install -y --no-install-recommends \
 sudo apt-get clean
 rm -fr /var/lib/apt/lists/*
 
-
-# wifi driver
-git clone https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi.git
-(
-    cd backport-iwlwifi
-    make defconfig-iwlwifi-public
-    make -j4
-    sudo make install
-)
-rm -fr backport-iwlwifi
+# only needed for ubuntu 18.04 and below
+## wifi driver
+#git clone https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi.git
+#(
+#    cd backport-iwlwifi
+#    make defconfig-iwlwifi-public
+#    make -j4
+#    sudo make install
+#)
+#rm -fr backport-iwlwifi
 

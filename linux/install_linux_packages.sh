@@ -13,6 +13,7 @@ sudo apt-get install -y --no-install-recommends \
     gcc \
     gfortran \
     graphviz \
+    gnome-tweaks \
     git \
     hdf5-tools \
     libeigen3-dev \

@@ -49,6 +49,11 @@ rm -fr /var/lib/apt/lists/*
 # get oh-my-zsh
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
+# install daily desktop wallpaper from National Geography
+sudo add-apt-repository ppa:atareao/atareao
+sudo apt upgrade
+sudo apt install national-geographic-wallpaper -y
+
 # only needed for ubuntu 18.04 and below
 ## wifi driver
 #git clone https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi.git

@@ -2,8 +2,11 @@
 
 sudo apt-get update
 sudo apt-get install -y --no-install-recommends \
+    apt-transport-https \
     build-essential \
+    ca-certificates \
     cmake \
+    curl \
     dvipng \
     ffmpeg \
     fonts-powerline \
@@ -14,6 +17,7 @@ sudo apt-get install -y --no-install-recommends \
     gfortran \
     graphviz \
     gnome-tweaks \
+    gnupg-agent \
     git \
     hdf5-tools \
     libeigen3-dev \
@@ -31,6 +35,7 @@ sudo apt-get install -y --no-install-recommends \
     openmpi-common \
     openmpi-doc \
     openssh-server \
+    software-properties-common \
     python3 \
     python3-pip \
     texlive-latex-extra \
@@ -53,6 +58,15 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 sudo add-apt-repository ppa:atareao/atareao
 sudo apt upgrade
 sudo apt install national-geographic-wallpaper -y
+
+# install docker
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 # only needed for ubuntu 18.04 and below
 ## wifi driver

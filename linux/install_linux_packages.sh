@@ -38,8 +38,7 @@ sudo apt-get install -y --no-install-recommends \
     software-properties-common \
     python3 \
     python3-pip \
-    texlive-latex-extra \
-    texlive-fonts-recommended \
+    texlive-full \
     tmux \
     valgrind \
     vim \

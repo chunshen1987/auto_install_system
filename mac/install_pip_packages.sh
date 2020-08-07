@@ -1,12 +1,19 @@
 #!/usr/bin/env bash
 
 packages=(
-    "powerline-status"
-    "github_traffic_stats"
+    "streamlit"
+    "jupyterlab"
+    "numpy"
+    "scipy"
+    "h5py"
+    "matplotlib"
+    "pandas"
 )
 
 for FORMULA in "${packages[@]}"
 do
     pip3 install $FORMULA
 done
+
+pip3 install -U scikit-learn
 

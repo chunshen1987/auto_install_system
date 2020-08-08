@@ -12,6 +12,7 @@ packages=(
     "graphviz"
     "gsl"
     "hdf5"
+    "sphinx-doc"
     "tmux"
 )
 

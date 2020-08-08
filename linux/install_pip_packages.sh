@@ -2,11 +2,12 @@
 
 packages=(
     "streamlit"
-    "jupyter-notebook"
+    "jupyterlib"
     "numpy"
     "scipy"
     "h5py"
     "matplotlib"
+    "sphinx_theme_pd"
 )
 
 pip3 install --upgrade
@@ -15,3 +16,4 @@ do
     pip3 install $FORMULA
 done
 pip3 install --upgrade protobuf
+pip3 install -U scikit-learn

@@ -38,6 +38,7 @@ sudo apt-get install -y --no-install-recommends \
     software-properties-common \
     python3 \
     python3-pip \
+    python3-sphinx \
     texlive-full \
     tmux \
     valgrind \

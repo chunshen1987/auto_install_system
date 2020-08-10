@@ -25,3 +25,5 @@
 * Install Mendeley from https://www.mendeley.com/download-desktop-new/
 
 * Install MacDown from https://macdown.uranusjr.com
+
+* Install Microsoft Office from the Wayne State academia website

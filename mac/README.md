@@ -27,3 +27,5 @@
 * Install MacDown from https://macdown.uranusjr.com
 
 * Install Microsoft Office from the Wayne State academia website
+
+* Install Latex from http://www.tug.org/mactex/

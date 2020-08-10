@@ -23,3 +23,5 @@
 * Install Skype from https://www.skype.com/en/get-skype/
 
 * Install Mendeley from https://www.mendeley.com/download-desktop-new/
+
+* Install MacDown from https://macdown.uranusjr.com

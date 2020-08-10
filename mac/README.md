@@ -6,7 +6,7 @@
 
 * Install oh my zsh with `./ohmyzsh.sh`
 
-    Change font `Term->Preferences->Profiles->Text->Change Font-> Meslo LG S DZ Regular for Powerline`
+    Change font `Term->Preferences->Profiles->Text->Change Font-> Roboto Mono Light for Powerline 14pt`
 
 * Install python packages through pip with `./install_pip_packages.sh`
 

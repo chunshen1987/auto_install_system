@@ -21,3 +21,5 @@
 * Install TeXmacs from https://www.texmacs.org/tmweb/download/macosx.en.html
 
 * Install Skype from https://www.skype.com/en/get-skype/
+
+* Install Mendeley from https://www.mendeley.com/download-desktop-new/

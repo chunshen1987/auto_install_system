@@ -15,3 +15,9 @@
 * Install Dropbox from https://www.dropbox.com/install
 
 * Install Slack from https://slack.com/downloads/mac
+
+* Install Sublime Text from https://www.sublimetext.com
+
+* Install TeXmacs from https://www.texmacs.org/tmweb/download/macosx.en.html
+
+* Install Skype from https://www.skype.com/en/get-skype/

@@ -14,3 +14,8 @@ gsettings set org.gnome.shell.extensions.desktop-icons show-trash false  # hide 
 * download installation package from website, https://www.anaconda.com/products/individual#linux
 
   To not showing (base) in the terminal, use `conda config --set changeps1 False`
+
+# Install JupyterLab extension
+
+    jupyter labextension install @jupyter-widgets/jupyterlab-manager
+    jupyter lab build

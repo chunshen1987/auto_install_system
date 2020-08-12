@@ -8,6 +8,7 @@ packages=(
     "h5py"
     "matplotlib"
     "pandas"
+    "ipympl"
 )
 
 pip3 install --upgrade

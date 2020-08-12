@@ -8,6 +8,7 @@ packages=(
     "h5py"
     "matplotlib"
     "pandas"
+    "ipympl"
 )
 
 for FORMULA in "${packages[@]}"

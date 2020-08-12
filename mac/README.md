@@ -29,3 +29,8 @@
 * Install Microsoft Office from the Wayne State academia website
 
 * Install Latex from http://www.tug.org/mactex/
+
+* Install JupyterLab extension
+
+    jupyter labextension install @jupyter-widgets/jupyterlab-manager
+    jupyter lab build

@@ -9,6 +9,7 @@ packages=(
     "matplotlib"
     "pandas"
     "sphinx_theme_pd"
+    "ipympl"
 )
 
 for FORMULA in "${packages[@]}"

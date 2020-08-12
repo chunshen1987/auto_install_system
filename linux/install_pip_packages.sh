@@ -2,12 +2,14 @@
 
 packages=(
     "streamlit"
-    "jupyterlib"
+    "jupyterlab"
     "numpy"
     "scipy"
     "h5py"
     "matplotlib"
     "sphinx_theme_pd"
+    "pandas"
+    "ipympl"
 )
 
 pip3 install --upgrade

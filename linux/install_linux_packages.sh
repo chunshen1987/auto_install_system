@@ -21,6 +21,7 @@ sudo apt-get install -y --no-install-recommends \
     git \
     hdf5-tools \
     libeigen3-dev \
+    libcairo2-dev \
     libfftw3-dev \
     libgsl-dev \
     libhdf5-dev \
@@ -36,6 +37,7 @@ sudo apt-get install -y --no-install-recommends \
     openmpi-doc \
     openssh-server \
     software-properties-common \
+    sox \
     python3 \
     python3-pip \
     python3-sphinx \

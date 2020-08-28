@@ -7,6 +7,7 @@ packages=(
     "scipy"
     "h5py"
     "matplotlib"
+    "manimce"
     "pandas"
     "ipympl"
 )

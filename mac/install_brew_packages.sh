@@ -2,6 +2,7 @@
 
 packages=(
     "wget"
+    "cairo"
     "cmake"
     "ctags"
     "doxygen"
@@ -14,6 +15,7 @@ packages=(
     "hdf5"
     "node"
     "sphinx-doc"
+    "sox"
     "tmux"
 )
 

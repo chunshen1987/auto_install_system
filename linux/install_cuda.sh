@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 
-wget http://developer.download.nvidia.com/compute/cuda/10.1/Prod/local_installers/cuda_10.1.243_418.87.00_linux.run
-sudo sh cuda_10.1.243_418.87.00_linux.run
+wget https://developer.download.nvidia.com/hpc-sdk/nvhpc_2020_207_Linux_x86_64_cuda_11.0.tar.gz
+
+tar xpzf nvhpc_2020_207_Linux_x86_64_cuda_11.0.tar.gz
+
+sudo nvhpc_2020_207_Linux_x86_64_cuda_11.0/install

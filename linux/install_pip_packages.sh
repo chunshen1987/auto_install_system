@@ -8,6 +8,7 @@ packages=(
     "h5py"
     "matplotlib"
     "manimce"
+    "sphinx_theme_pd"
     "pandas"
     "ipympl"
 )
@@ -18,5 +19,4 @@ do
     pip3 install $FORMULA
 done
 pip3 install --upgrade protobuf
-
 pip3 install -U scikit-learn

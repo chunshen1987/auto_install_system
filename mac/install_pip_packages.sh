@@ -8,6 +8,7 @@ packages=(
     "h5py"
     "matplotlib"
     "pandas"
+    "sphinx"
     "sphinx_theme_pd"
     "ipympl"
     "manimce"

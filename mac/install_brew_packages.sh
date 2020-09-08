@@ -14,7 +14,6 @@ packages=(
     "gsl"
     "hdf5"
     "node"
-    "sphinx-doc"
     "sox"
     "tmux"
 )

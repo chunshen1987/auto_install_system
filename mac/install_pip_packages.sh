@@ -7,6 +7,7 @@ packages=(
     "scipy"
     "h5py"
     "matplotlib"
+    "nbstripout"
     "pandas"
     "sphinx"
     "sphinx_theme_pd"

@@ -13,6 +13,7 @@ packages=(
     "sphinx_theme_pd"
     "ipympl"
     "manimce"
+    "jupyter-book"
 )
 
 for FORMULA in "${packages[@]}"

@@ -2,9 +2,9 @@
 
 version="8235"
 
-wget http://home.thep.lu.se/~torbjorn/pythia8/pythia$version.tgz
+wget https://pythia.org/download/pythia82/pythia${version}.tar.bz2
 
-tar -xf pythia$version.tgz
+tar -xf pythia${version}.tar.bz2
 
 (
     cd pythia$version
@@ -13,5 +13,5 @@ tar -xf pythia$version.tgz
     make install
 )
 
-rm -fr pythia$version
-rm -fr pythia$version.tgz
+rm -fr pythia${version}
+rm -fr pythia${version}.tar.bz2

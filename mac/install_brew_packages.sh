@@ -16,6 +16,7 @@ packages=(
     "node"
     "sox"
     "tmux"
+    "alacritty"
 )
 
 brew update

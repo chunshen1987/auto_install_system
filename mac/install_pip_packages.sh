@@ -18,8 +18,8 @@ packages=(
 
 for FORMULA in "${packages[@]}"
 do
-    pip3 install $FORMULA
+    python3 -m pip install $FORMULA
 done
 
-pip3 install -U scikit-learn
+python -m pip install -U scikit-learn
 
